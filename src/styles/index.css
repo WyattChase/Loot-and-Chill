@@ -9,3 +9,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import "tailwindcss";
+
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  --font-UnifrakturCook: "UnifrakturCook", san-serif;
+}

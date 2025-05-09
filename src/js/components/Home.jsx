@@ -1,28 +1,23 @@
-import React from "react";
+import Hero from "../components/Hero.jsx";
+import About from "../components/About.jsx";
+import MediaGrid from "../components/MediaGrid.jsx";
+import Membership from "../components/Membership.jsx";
+import Footer from "../components/footer";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
-const Home = () => {
-	return (
-		<div className="text-center">
-            
-
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
-};
-
-export default Home;
+export default function Home() {
+  return (
+    <>
+      <main>
+        <title>Loot and Chill</title>
+        <meta name="description" content="Loot and Chill - Gaming Lounge" />
+      </main>
+      <main className="bg-[#1a1a1d] text-[#ffd700] font-roguelike">
+        <Hero />
+        <About />
+        <MediaGrid />
+        <Membership />
+        <Footer />
+      </main>
+    </>
+  );
+}
