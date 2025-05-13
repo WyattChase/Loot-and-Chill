@@ -1,5 +1,5 @@
 import logo from "../../assests/logo.png";
-import video from "../../../public/video.mp4";
+import video from "../../assests/video.mp4";
 export default function Hero() {
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -24,7 +24,10 @@ export default function Hero() {
       />
 
       {/* Overlay Content */}
-      <section id="home" className="relative z-10 bg-purple-900/70 text-[#ffd700] text-center py-20 px-4 h-full flex flex-col justify-center items-center">
+      <section
+        id="home"
+        className="relative z-10 bg-purple-900/70 text-[#ffd700] text-center py-20 px-4 h-full flex flex-col justify-center items-center"
+      >
         <img
           src={logo}
           alt="Loot and Chill Logo"

@@ -4,7 +4,7 @@ export default function MediaGrid() {
       {[...Array(6)].map((_, i) => (
         <div key={i} className="aspect-video bg-gray-800">
           <img
-            src={`/placeholder-${i + 1}.jpg`}
+            src={`https://i.ytimg.com/vi/TRGy4eVzM1I/maxresdefault.jpg`}
             alt="media"
             className="w-full h-full object-cover"
           />
