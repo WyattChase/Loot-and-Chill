@@ -3,6 +3,7 @@ import About from "../components/About.jsx";
 import MediaGrid from "../components/MediaGrid.jsx";
 import Membership from "../components/Membership.jsx";
 import Footer from "../components/footer";
+import Navbar from "./navbar.jsx";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <meta name="description" content="Loot and Chill - Gaming Lounge" />
       </main>
       <main className="bg-[#1a1a1d] text-[#ffd700] font-roguelike">
+        <Navbar />
         <Hero />
         <About />
         <MediaGrid />

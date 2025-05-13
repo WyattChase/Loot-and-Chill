@@ -10,6 +10,7 @@
 
 */
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
 @import "tailwindcss";
 
 @layer theme, base, components, utilities;
@@ -19,4 +20,31 @@
 
 @theme {
   --font-UnifrakturCook: "UnifrakturCook", san-serif;
+}
+@theme {
+  --font-roguelike: 'Honk', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Underline animation for active link */
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: #1a1a1d; /* charcoal black */
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+
+.group:hover .underline-animation::after {
+  transform: scaleX(1);
 }
