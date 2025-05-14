@@ -7,7 +7,7 @@ export default function Membership() {
         and more.
       </p>
       <button className="bg-purple-600 text-[#1a1a1d] font-bold px-6 py-3 rounded-xl shadow-md transition duration-300 ease-in-out hover:bg-[#ffea70] hover:drop-shadow-[0_0_10px_#ffd700] hover:animate-pulse">
-        Sign Up Now
+        Coming Soon
       </button>
     </section>
   );

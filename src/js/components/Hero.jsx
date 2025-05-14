@@ -28,11 +28,11 @@ export default function Hero() {
         id="home"
         className="relative z-10 bg-purple-900/70 text-[#ffd700] text-center py-20 px-4 h-full flex flex-col justify-center items-center"
       >
-        <img
+        {/* <img
           src={logo}
           alt="Loot and Chill Logo"
           className="rounded-full aspect-square object-cover w-64 mb-6"
-        />
+        /> */}
         <h1 className="text-4xl md:text-6xl font-bold font-roguelike">
           Loot & Chill
         </h1>

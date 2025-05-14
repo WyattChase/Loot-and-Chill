@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#2c003e]/80 backdrop-blur-md text-[#ffd700]">
       {/* Top Bar with Contact Info */}
-      <div className="w-full bg-[#1a1a1d] text-[#ffd700] text-xs sm:text-sm py-3 px-4 text-center sm:flex sm:justify-between sm:items-center z-50">
+      {/* <div className="w-full bg-[#1a1a1d] text-[#ffd700] text-xs sm:text-sm py-3 px-4 text-center sm:flex sm:justify-between sm:items-center z-50">
         <span className="block font-semibold">
           Loot and Chill LLC • Miami, FL
         </span>
@@ -50,9 +50,9 @@ export default function Navbar() {
             info@lootandchill.com
           </a>
         </span>
-      </div>
+      </div> */}
 
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-3 py-1 flex items-center justify-between">
         {/* Logo + Name */}
         <a href="#home" className="flex items-center space-x-2">
           <img
