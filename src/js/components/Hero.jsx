@@ -34,7 +34,7 @@ export default function Hero() {
           className="rounded-full aspect-square object-cover w-64 mb-6"
         /> */}
         <h1 className="text-4xl md:text-6xl font-bold font-roguelike">
-          Loot & Chill
+          Loot and Chill
         </h1>
         <p className="mt-4 text-lg max-w-xl">
           Miami’s Premier Gaming Lounge – Where adventure meets relaxation.
