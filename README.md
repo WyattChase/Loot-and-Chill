@@ -47,7 +47,7 @@ cd Loot-and-Chill
 npm install
 
 # Start the development server
-npm run dev
+npm run start
 ```
 
 🧠 Lessons Learned
