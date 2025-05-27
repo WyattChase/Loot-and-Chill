@@ -59,5 +59,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 For inquiries or feedback, please reach out to jeanst.cloud@yahoo.com.
 
 Feel free to customize this template further to align with your project's specifics. Once updated, this README.md will present your project in a professional light, highlighting your development skills and the value Loot & Chill offers.
-
-If you need assistance with adding screenshots or deploying updates, don't hesitate to ask!
