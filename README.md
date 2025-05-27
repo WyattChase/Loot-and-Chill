@@ -25,18 +25,6 @@ Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
 
 Deployment: Vercel
-Gamer Journalist
-+7
-YouTube
-+7
-Reddit
-+7
-Reddit
-+2
-N4G
-+2
-Highmark Health
-+2
 
 📸 Screenshots
 Include relevant screenshots here to showcase the UI and features.
@@ -44,27 +32,18 @@ Include relevant screenshots here to showcase the UI and features.
 📂 Installation & Setup
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/WyattChase/Loot-and-Chill.git
+
 Navigate to the project directory:
 
-bash
-Copy
-Edit
 cd Loot-and-Chill
+
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
+
 Start the development server:
 
-bash
-Copy
-Edit
 npm start
 
 
