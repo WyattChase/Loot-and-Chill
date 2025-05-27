@@ -1,5 +1,5 @@
 🎮 Loot & Chill – Gaming Lounge Web Platform
-Reddit
+
 Live Site: lootandchill.com
 
 Loot & Chill is a full-stack web application designed to serve as the digital presence for a gaming lounge business. This platform offers users an engaging interface to explore services, book gaming sessions, and stay updated with the latest events.
@@ -27,7 +27,7 @@ Authentication: JWT (JSON Web Tokens)
 Deployment: Vercel
 
 📸 Screenshots
-Include relevant screenshots here to showcase the UI and features.
+![Homepage](https://github.com/WyattChase/Loot-and-Chill/issues/4)
 
 📂 Installation & Setup
 Clone the repository:
